@@ -54,7 +54,6 @@ $(function() {
         if (wScroll > $('.thumbnails').offset().top - $(window).height()) {
 
             var offset = Math.min(0, (wScroll - $('.thumbnails').offset().top + $(window).height()) - 350);
-            console.log(offset);
             $('.thumb1').css({
                 'transform': 'translate(' + offset + 'px, 20px)'
             });
